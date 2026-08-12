@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RawRack — Keep.It.Raw</title>
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/assets/rawrack-logo.png"></head>
+<body>
+<div class="topbar">BANGALORE ONLY · CUSTOM STREETWEAR · KEEP.IT.RAW</div>
+<header><nav>
+<a class="brand" href="/"><img src="/assets/rawrack-logo.png" alt="RawRack"></a>
+<div class="links"><a href="#drop">NEW DROP</a><a href="#shop">SHOP</a><a href="/product.html?id=hoodie">CUSTOMIZE</a><a href="#about">ABOUT</a></div>
+<div class="actions"><a href="https://www.instagram.com/raw__rack/" target="_blank">IG</a><button onclick="openCart()">BAG <b id="bagCount">0</b></button></div>
+</nav></header>
+
+<section class="hero">
+<div class="heroCopy"><span class="eyebrow">RAWRACK / 001 / BANGALORE</span><h1>KEEP<span>.</span><br>IT<span>.</span>RAW</h1><p>Custom streetwear for people who don't want their rack to look like everybody else's.</p><div class="ctas"><a class="btn" href="#shop">SHOP THE DROP →</a><a class="btn ghost" href="/product.html?id=hoodie">CUSTOMIZE YOURS →</a></div></div>
+<div class="heroImg"><img src="/assets/diet-coke-hoodie.jpg" alt="Featured RawRack hoodie"><i>DROP 001 / CUSTOM</i></div>
+</section>
+
+<section id="drop"><div class="head"><h2>THE FIRST DROP</h2><span>01 — FOUR WAYS TO KEEP IT RAW</span></div>
+<div id="shop" class="grid" data-products></div></section>
+
+
+<section class="videoSection">
+  <div class="head"><h2>RAW MOTION.</h2><span>CAMPAIGN / VIDEO</span></div>
+  <div class="videoWrap">
+    <video id="brandVideo" controls muted playsinline preload="metadata" poster="/assets/diet-coke-hoodie.jpg">
+      <source src="/videos/rawrack-campaign.mp4" type="video/mp4">
+      <source src="/videos/rawrack-campaign.webm" type="video/webm">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="videoLabel">KEEP.IT.RAW / WATCH THE DROP</div>
+  </div>
+</section>
+
+<section class="feature"><img src="/assets/diet-coke-hoodie.jpg" alt="Diet Coke Club"><div><span class="eyebrow">FEATURED PIECE / 001</span><h2>DIET<br>COKE<br>CLUB.</h2><p>A preview of the graphic-led custom pieces RawRack is built for.</p><a class="btn" href="/product.html?id=hoodie">VIEW PIECE →</a></div></section>
+
+<section id="about" class="about"><div><span class="eyebrow">KEEP.IT.RAW</span><h2>MAKE<br>IT <em>YOURS.</em></h2></div><p>RawRack is a Bangalore student-run customization brand built around expressive graphics, personal taste and pieces that feel like yours. Pick a base, choose a size and upload your design.</p></section>
+
+<section class="social"><div class="head"><h2>RAW IN THE WILD.</h2><span>@RAW__RACK</span></div><div class="socialGrid"><a href="https://www.instagram.com/raw__rack/" target="_blank">RAW<br>RACK</a><a href="https://www.instagram.com/raw__rack/" target="_blank">CUSTOM<br>IS KING</a><a href="https://www.instagram.com/raw__rack/" target="_blank">KEEP.<br>IT.RAW</a><a href="https://www.instagram.com/raw__rack/" target="_blank">FOLLOW<br>THE DROP →</a></div></section>
+
+<footer><div class="footgrid"><div><h2>RAW<span>RACK</span></h2><p>Keep.It.Raw</p></div><div><b>SHOP</b><a href="/product.html?id=hoodie">Hoodies</a><a href="/product.html?id=tshirt">T-Shirts</a><a href="/product.html?id=pants">Pants</a><a href="/product.html?id=badge">Badges</a></div><div><b>HELP</b><a href="/product.html?id=hoodie">Customize</a><a href="/track.html">Track Order</a><a href="/faq.html">FAQ</a><a href="tel:+917022769412">7022769412</a><a href="https://wa.me/917022769412" target="_blank">WhatsApp</a></div><div><b>CONNECT</b><a href="https://www.instagram.com/raw__rack/" target="_blank">Instagram</a><a href="/about.html">About</a><a href="/shipping.html">Shipping</a><a href="/returns.html">Returns</a><a href="https://wa.me/917022769412" target="_blank">WhatsApp</a></div></div><small>© 2026 RAWRACK · BANGALORE ONLY · KEEP.IT.RAW</small></footer>
+
+<aside id="cart" class="cart"><div class="cartPanel"><button class="x" onclick="closeCart()">×</button><h2>YOUR BAG.</h2><div id="cartItems"></div><div class="cartTotal"><b>TOTAL</b><b id="cartTotal">₹0</b></div><a class="btn full" href="/checkout.html">CHECKOUT →</a></div></aside>
+<script src="/app.js"></script>
+<div class="mobileNav">
+<a href="/"><span>HOME</span></a><a href="/#shop"><span>SHOP</span></a>
+<a href="/product.html?id=hoodie"><span>CUSTOMIZE</span></a>
+<button onclick="openCart?.()"><span>BAG <b id="mobileBagCount">0</b></span></button>
+</div></body></html>
